@@ -32,17 +32,26 @@ app.get('/home', (req, res) => {
 });
 ///////// ROUTES HOME--PAGE
 
+
+///////// ROUTES aboutMe--PAGE
 app.get('/pages/aboutMe', (req, res) => {
-    res.render('/pages/aboutMe')
+    res.render('pages/aboutMe')
 });
+///////// ROUTES aboutMe--PAGE
 
-app.get('/home', (req, res) => {
-    res.render('home')
-});
 
-app.get('/home', (req, res) => {
-    res.render('home')
+///////// ROUTES PROJECTS--PAGE
+app.get('/pages/projects', (req, res) => {
+    res.render('pages/projects')
 });
+///////// ROUTES PROJECTS--PAGE
+
+
+///////// ROUTES CONTACT--PAGE
+app.get('/pages/contact', (req, res) => {
+    res.render('pages/contact')
+});
+///////// ROUTES CONTACT--PAGE
 
 
 
